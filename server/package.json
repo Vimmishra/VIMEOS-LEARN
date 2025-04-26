@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "@react-oauth/google": "^0.12.1",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^8.9.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.10.0",
+    "openai": "^4.95.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "paypal-rest-sdk": "^1.8.1",
+    "pdfkit": "^0.16.0",
+    "socket.io": "^4.8.1"
+  }
+}
